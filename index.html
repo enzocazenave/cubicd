@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" href="./output.css">
   </head>
-  <body class="bg-black">
-    <section class="flex flex-col justify-between h-dvh py-[1.875rem] px-24">
+  <body class="bg-black overflow-x-hidden">
+    <img src="./resource-2.png" class="absolute left-1/2 -top-1/4 -z-10" />
+    
+    <section class="flex flex-col justify-between h-dvh py-[1.875rem] px-24" id="home">
       <header class="flex justify-between items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="264.348" height="107.397" viewBox="0 0 264.348 107.397">
           <g id="Grupo_39" data-name="Grupo 39" transform="translate(-24.745)">
@@ -31,19 +33,19 @@
         <nav>
           <ul class="flex gap-[3.125rem] items-center">
             <li>
-              <a href="" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Inicio</a>
+              <a href="#home" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Inicio</a>
             </li>
             <li>
-              <a href="" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Nosotros</a>
+              <a href="#we" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Nosotros</a>
             </li>
             <li>
-              <a href="" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Nuestro Equipo</a>
+              <a href="#our-team" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Nuestro Equipo</a>
             </li>
             <li>
-              <a href="" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Metodología</a>
+              <a href="#our-methodology" class="text-white text-lg font-semibold hover:text-yellow-cubicd transition-colors">Metodología</a>
             </li>
             <li>
-              <button class="text-yellow-cubicd border border-yellow-cubicd px-8 py-2 font-semibold hover:bg-yellow-cubicd hover:text-black transition-colors">Contacto</button>
+              <a href="#contact" class="text-yellow-cubicd border border-yellow-cubicd px-8 py-2 font-semibold hover:bg-yellow-cubicd hover:text-black transition-colors">Contacto</a>
             </li>
           </ul>
         </nav>
@@ -68,7 +70,7 @@
       </div>
     </section>
 
-    <section class="flex py-24 px-24 gap-14">
+    <section class="flex py-24 px-24 gap-14" id="we">
       <div class="flex-[2] flex flex-col gap-8">
         <hr class="w-1/2 border-1 border-yellow-cubicd"/>
         <h3 class="text-5xl text-white font-bold leading-58">Ayudamos a lograr el éxito del negocio ofreciendo soluciones efectivas mediante el uso de Data Science & Machine Learning</h3>
@@ -84,9 +86,11 @@
         <!-- <img src="" alt="Imagenes de logos de empresas" /> -->                                       
         <!-- <img src="" alt="Imagenes de logos de empresas" /> -->                                       
       </div>
-    </section>
+    </section> 
 
-    <section class="py-24 px-24">
+    <img src="./resource-2.png" class="absolute right-3/4" />
+
+    <section class="py-24 px-24" id="our-team">
       <hr class="w-1/4 border-t border-t-yellow-cubicd" />
 
       <h3 class="text-white text-5xl font-bold mt-6">Nuestro Equipo</h3>
@@ -122,7 +126,7 @@
       </div>
     </section>
 
-    <section class="px-24 py-12 flex">
+    <section class="px-24 py-12 flex" id="our-methodology">
       <div class="flex-[2]">
         <span class="text-white">Lorem Ipsum is simply dummy text of the printing industry.</span>
         <h3 class="text-white mt-4 text-5xl">Nuestra Metodología</h3>
@@ -144,6 +148,118 @@
         <img src="./cowork.jpg" />
       </div>
     </section>
+
+    <section class="relative py-24">
+      <div class="flex items-center gap-8 px-24 pb-24">
+        <h3 class="text-5xl text-white flex-1 font-bold">Nuestros Skills</h3>
+        <div class="grid grid-cols-3 grid-rows-1 flex-[2] gap-4">
+          <p class="text-white">Lorem ipsum dolor sit</p>
+          <p class="text-white">Lorem ipsum dolor sit</p>
+          <p class="text-white">Lorem ipsum dolor sit</p>
+          <p class="text-white">Lorem ipsum dolor</p>
+          <p class="text-white">Lorem ipsum dolor</p>
+          <p class="text-white">Lorem ipsum dolor</p>
+          <p class="text-white">Lorem ipsum dolor sit</p>
+          <p class="text-white">Lorem ipsum dolor sit</p>
+          <p class="text-white">Lorem ipsum dolor sit</p>
+        </div>
+      </div>
+      <span class="text-8xl text-white font-bold w-full whitespace-nowrap">
+        ATA SCIENCE · DATA SCIENCE · DATA SCIENCE · DATA SCIENCE · DATA SCIENCE · DATA SCIENCE
+      </span>
+      <span class="text-8xl text-white font-bold w-full whitespace-nowrap">
+        MACHINE LEARNING · MACHINE LEARNING · MACHINE LEARNING · MACHINE LEARNING · MACHINE LEARNING · MACHINE LEARNING 
+      </span>
+    </section>
+
+    <section class="bg-yellow-cubicd px-24 py-24">
+      <hr class="w-1/4 border-t border-t-black" />
+      <h3 class="text-5xl mt-4 font-bold">Casos de Estudio</h3>
+      <div class="mt-12 flex">
+        <div class="flex-[2] flex flex-col gap-8">
+          <figure class="flex bg-white p-9 drop-shadow-xl gap-8">
+            <img src="" class="w-40 h-40 border" />
+
+            <div class="flex-1">
+              <h4 class="text-4xl font-semibold">Lorem ipsum dolor sit amet</h4>
+              <p class="leading-28 mt-4">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              </p>
+            </div>
+          </figure>
+
+          <figure class="flex bg-white p-9 drop-shadow-xl gap-8">
+            <img src="" class="w-40 h-40 border" />
+
+            <div class="flex-1">
+              <h4 class="text-4xl font-semibold">Lorem ipsum dolor sit amet</h4>
+              <p class="leading-28 mt-4">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+              </p>
+            </div>
+          </figure>
+        </div>
+
+        <div class="grid grid-rows-3 grid-cols-1 flex-1 place-items-center">
+          <div class="text-center">
+            <span class="text-[80px] font-bold">9.499</span>
+            <p>Título de estadística</p>
+          </div>
+          <div class="text-center">
+            <span class="text-[80px] font-bold">39%</span>
+            <p>Título de estadística</p>
+          </div>
+          <div class="text-center">
+            <span class="text-[80px] font-bold">2,34</span>
+            <p>Título de estadística</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="#contact" class="px-24 py-24 flex">
+      <div class="flex flex-col gap-8 flex-1 py-12">
+        <h4 class="text-white text-5xl">Contacto</h4>
+
+        <div class="flex gap-4 items-center">
+          <iconify-icon icon="ic:baseline-whatsapp" style="color: white;" width="24" height="24"></iconify-icon>
+          <span class="text-white text-lg">+598 00 000 000</span>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <iconify-icon icon="mdi:envelope-outline" style="color: white;" width="24" height="24"></iconify-icon>
+          <span class="text-white text-lg">contacto@cubicd.com</span>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <iconify-icon icon="material-symbols-light:map-outline" style="color: white;" width="24" height="24"></iconify-icon>
+          <span class="text-white text-lg">Montevideo, Uruguay</span>
+        </div>
+      </div>
+
+      <form class="flex-1 bg-white rounded-xl px-16 py-12 flex flex-col gap-4">
+        <h4 class="text-4xl">Envíanos tu consulta</h4>
+        <p class="text-[#868686]">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        </p>
+        <input type="text" placeholder="Nombre" class="border p-3 rounded-full" />
+        <input type="text" placeholder="Teléfono" class="border p-3 rounded-full" />
+        <input type="text" placeholder="Email" class="border p-3 rounded-full" />
+        <textarea class="h-36 border p-3 rounded-3xl resize-y"></textarea>
+        <button class="text-[#4600FF] border-2 border-[#4600FF] w-fit py-4 px-12 font-bold hover:bg-[#4600FF] hover:text-white transition-colors" type="submit">Contactanos</button>
+      </form>
+    </section>
+
+    <footer class="bg-[#1D1D1D] px-24 py-9">
+      <div class="flex gap-20">
+        <a class="text-[#6E6E6E] hover:text-yellow-cubicd transition-colors" href="">Nosotros</a>
+        <a class="text-[#6E6E6E] hover:text-yellow-cubicd transition-colors" href="">Servicios</a>
+        <a class="text-[#6E6E6E] hover:text-yellow-cubicd transition-colors" href="">Contacto</a>
+      </div>
+      <p class="text-[#6E6E6E] leading-28 mt-8 max-w-lg">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      </p>
+    </footer>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>
